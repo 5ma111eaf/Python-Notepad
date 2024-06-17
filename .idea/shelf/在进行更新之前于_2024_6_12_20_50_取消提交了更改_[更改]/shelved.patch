@@ -1,0 +1,448 @@
+Index: demo.py
+===================================================================
+diff --git a/demo.py b/demo.py
+deleted file mode 100644
+--- a/demo.py	(revision 63c4eb434ce2fe362469183d58fd2aeb0dd424f6)
++++ /dev/null	(revision 63c4eb434ce2fe362469183d58fd2aeb0dd424f6)
+@@ -1,1 +0,0 @@
+-print("hello world")
+\ No newline at end of file
+Index: Python-Day1/pd1-2.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python-Day1/pd1-2.py b/Python-Day1/pd1-2.py
+new file mode 100644
+--- /dev/null	(date 1718177480728)
++++ b/Python-Day1/pd1-2.py	(date 1718177480728)
+@@ -0,0 +1,38 @@
++print("hello world")
++
++
++# python -V
++
++
++a = 4
++b = 3
++
++c = a + b
++d = a - b
++e = a * b
++f = a / b
++g = a % b
++h = a // b
++i = a ** b
++
++print(c, d, e, f, g, h, i)
++
++
++j = 'chaowei'
++l = 'ye'
++m = 'chine'
++n = 'I am enjying 30 dyas of python'
++
++print('name:', j, 'familyname:', l, 'conuntry:', m , n)
++
++
++o = 10
++p = 9.8
++q = 3.14
++r = 4 - 4j
++s = ['Asabeneh', 'Python', 'Finland']
++c = 'chaowei'
++u = 'ye'
++v = 'chine'
++
++print(type(o), type(p), type(q), type(r), type(s), type(c), type(u), type(v))
+\ No newline at end of file
+Index: Python-Day1/pd1-3.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python-Day1/pd1-3.py b/Python-Day1/pd1-3.py
+new file mode 100644
+--- /dev/null	(date 1718196267366)
++++ b/Python-Day1/pd1-3.py	(date 1718196267366)
+@@ -0,0 +1,32 @@
++import math
++
++
++int_number = 10 #整数
++float_number = 3.14 #浮点数
++complex_number = 2 + 4j #复数
++str_date = '5ma111eaf' #字符串
++list_date = [1, 2, 3] #列表
++dictionary_date = {'a': 1, 'b': 2, 'c': 3} #字典
++set_date = {1, 2, 3} #集合
++tuple_date = (1, 2, 3) #元组
++
++print(type(int_number))
++print(type(float_number))
++print(type(complex_number))
++print(type(str_date))
++print(type(list_date))
++print(type(dictionary_date))
++print(type(set_date))
++print(type(tuple_date))
++
++
++#求(2,3)和(10,8)之间的欧几里得距离
++a = 2
++b = 3
++c = 10
++d = 8
++
++aa = (c - a) ** 2 + (d - b) ** 2
++print("欧几里得距离为:", math.sqrt(aa))
++
++#欧几里得距离公式是，xy之间差的平方相加，求出的根号值就是欧几里得的距离了。
+\ No newline at end of file
+Index: .idea/Python-Notepad.iml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/Python-Notepad.iml b/.idea/Python-Notepad.iml
+new file mode 100644
+--- /dev/null	(date 1718118264398)
++++ b/.idea/Python-Notepad.iml	(date 1718118264398)
+@@ -0,0 +1,10 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<module type="PYTHON_MODULE" version="4">
++  <component name="NewModuleRootManager">
++    <content url="file://$MODULE_DIR$">
++      <excludeFolder url="file://$MODULE_DIR$/.venv" />
++    </content>
++    <orderEntry type="jdk" jdkName="Python 3.10" jdkType="Python SDK" />
++    <orderEntry type="sourceFolder" forTests="false" />
++  </component>
++</module>
+\ No newline at end of file
+Index: .idea/modules.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+new file mode 100644
+--- /dev/null	(date 1718118222157)
++++ b/.idea/modules.xml	(date 1718118222157)
+@@ -0,0 +1,8 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="ProjectModuleManager">
++    <modules>
++      <module fileurl="file://$PROJECT_DIR$/.idea/Python-Notepad.iml" filepath="$PROJECT_DIR$/.idea/Python-Notepad.iml" />
++    </modules>
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+new file mode 100644
+--- /dev/null	(date 1718196284107)
++++ b/.idea/workspace.xml	(date 1718196284107)
+@@ -0,0 +1,203 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="AutoImportSettings">
++    <option name="autoReloadType" value="SELECTIVE" />
++  </component>
++  <component name="ChangeListManager">
++    <list default="true" id="15241a10-93f8-4f01-bd46-5d4ae9d0d423" name="更改" comment="第二次提交">
++      <change afterPath="$PROJECT_DIR$/.idea/Python-Notepad.iml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Python-Day1/pd1-1.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Python-Day1/pd1-2.py" afterDir="false" />
++      <change afterPath="$PROJECT_DIR$/Python-Day1/pd1-3.py" afterDir="false" />
++      <change beforePath="$PROJECT_DIR$/demo.py" beforeDir="false" />
++    </list>
++    <option name="SHOW_DIALOG" value="false" />
++    <option name="HIGHLIGHT_CONFLICTS" value="true" />
++    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
++    <option name="LAST_RESOLUTION" value="IGNORE" />
++  </component>
++  <component name="FileTemplateManagerImpl">
++    <option name="RECENT_TEMPLATES">
++      <list>
++        <option value="Python Script" />
++      </list>
++    </option>
++  </component>
++  <component name="Git.Settings">
++    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
++  </component>
++  <component name="MarkdownSettingsMigration">
++    <option name="stateVersion" value="1" />
++  </component>
++  <component name="ProjectColorInfo">{
++  &quot;customColor&quot;: &quot;&quot;,
++  &quot;associatedIndex&quot;: 5
++}</component>
++  <component name="ProjectId" id="2hjrEWTGAGrxcfXdDT6gVTkYzMs" />
++  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
++    <ConfirmationsSetting value="2" id="Add" />
++  </component>
++  <component name="ProjectViewState">
++    <option name="hideEmptyMiddlePackages" value="true" />
++    <option name="showLibraryContents" value="true" />
++  </component>
++  <component name="PropertiesComponent"><![CDATA[{
++  "keyToString": {
++    "Python.pd1-1.executor": "Run",
++    "Python.pd1-2.executor": "Run",
++    "Python.pd1-3.executor": "Run",
++    "RunOnceActivity.OpenProjectViewOnStart": "true",
++    "RunOnceActivity.ShowReadmeOnStart": "true",
++    "node.js.detected.package.eslint": "true",
++    "node.js.detected.package.tslint": "true",
++    "node.js.selected.package.eslint": "(autodetect)",
++    "node.js.selected.package.tslint": "(autodetect)",
++    "nodejs_package_manager_path": "npm",
++    "vue.rearranger.settings.migration": "true"
++  }
++}]]></component>
++  <component name="RunManager" selected="Python.pd1-3">
++    <configuration name="pd1-1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="Python-Notepad" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python-Day1" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python-Day1/pd1-1.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="pd1-2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="Python-Notepad" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python-Day1" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python-Day1/pd1-2.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <configuration name="pd1-3" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
++      <module name="Python-Notepad" />
++      <option name="ENV_FILES" value="" />
++      <option name="INTERPRETER_OPTIONS" value="" />
++      <option name="PARENT_ENVS" value="true" />
++      <envs>
++        <env name="PYTHONUNBUFFERED" value="1" />
++      </envs>
++      <option name="SDK_HOME" value="" />
++      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Python-Day1" />
++      <option name="IS_MODULE_SDK" value="true" />
++      <option name="ADD_CONTENT_ROOTS" value="true" />
++      <option name="ADD_SOURCE_ROOTS" value="true" />
++      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
++      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Python-Day1/pd1-3.py" />
++      <option name="PARAMETERS" value="" />
++      <option name="SHOW_COMMAND_LINE" value="false" />
++      <option name="EMULATE_TERMINAL" value="false" />
++      <option name="MODULE_MODE" value="false" />
++      <option name="REDIRECT_INPUT" value="false" />
++      <option name="INPUT_FILE" value="" />
++      <method v="2" />
++    </configuration>
++    <recent_temporary>
++      <list>
++        <item itemvalue="Python.pd1-3" />
++        <item itemvalue="Python.pd1-2" />
++        <item itemvalue="Python.pd1-1" />
++      </list>
++    </recent_temporary>
++  </component>
++  <component name="SharedIndexes">
++    <attachedChunks>
++      <set>
++        <option value="bundled-python-sdk-d68999036c7f-b11f5e8da5ad-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.14475.56" />
++      </set>
++    </attachedChunks>
++  </component>
++  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
++  <component name="TaskManager">
++    <task active="true" id="Default" summary="默认任务">
++      <changelist id="15241a10-93f8-4f01-bd46-5d4ae9d0d423" name="更改" comment="" />
++      <created>1718118216021</created>
++      <option name="number" value="Default" />
++      <option name="presentableId" value="Default" />
++      <updated>1718118216021</updated>
++      <workItem from="1718118219760" duration="4467000" />
++      <workItem from="1718154554642" duration="12912000" />
++    </task>
++    <task id="LOCAL-00001" summary="第一次提交">
++      <option name="closed" value="true" />
++      <created>1718118451401</created>
++      <option name="number" value="00001" />
++      <option name="presentableId" value="LOCAL-00001" />
++      <option name="project" value="LOCAL" />
++      <updated>1718118451401</updated>
++    </task>
++    <task id="LOCAL-00002" summary="第二次提交">
++      <option name="closed" value="true" />
++      <created>1718126842041</created>
++      <option name="number" value="00002" />
++      <option name="presentableId" value="LOCAL-00002" />
++      <option name="project" value="LOCAL" />
++      <updated>1718126842041</updated>
++    </task>
++    <option name="localTasksCounter" value="3" />
++    <servers />
++  </component>
++  <component name="TypeScriptGeneratedFilesManager">
++    <option name="version" value="3" />
++  </component>
++  <component name="Vcs.Log.Tabs.Properties">
++    <option name="TAB_STATES">
++      <map>
++        <entry key="MAIN">
++          <value>
++            <State />
++          </value>
++        </entry>
++      </map>
++    </option>
++  </component>
++  <component name="VcsManagerConfiguration">
++    <MESSAGE value="第一次提交" />
++    <MESSAGE value="第二次提交" />
++    <option name="LAST_COMMIT_MESSAGE" value="第二次提交" />
++  </component>
++  <component name="com.intellij.coverage.CoverageDataManagerImpl">
++    <SUITE FILE_PATH="coverage/Python_Notepad$pd1_3.coverage" NAME="pd1-3 覆盖结果" MODIFIED="1718195971333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python-Day1" />
++    <SUITE FILE_PATH="coverage/Python_Notepad$pd1_1.coverage" NAME="pd1-1 覆盖结果" MODIFIED="1718161020542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python-Day1" />
++    <SUITE FILE_PATH="coverage/Python_Notepad$pd1_2.coverage" NAME="pd1-2 覆盖结果" MODIFIED="1718185576874" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Python-Day1" />
++  </component>
++</project>
+\ No newline at end of file
+Index: .idea/misc.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+new file mode 100644
+--- /dev/null	(date 1718118264405)
++++ b/.idea/misc.xml	(date 1718118264405)
+@@ -0,0 +1,7 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="Black">
++    <option name="sdkName" value="Python 3.10 (Python-Notepad)" />
++  </component>
++  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.10" project-jdk-type="Python SDK" />
++</project>
+\ No newline at end of file
+Index: Python-Day1/pd1-1.py
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/Python-Day1/pd1-1.py b/Python-Day1/pd1-1.py
+new file mode 100644
+--- /dev/null	(date 1718166875164)
++++ b/Python-Day1/pd1-1.py	(date 1718166875164)
+@@ -0,0 +1,31 @@
++# python -V
++
++a = 3
++b = 4
++
++print(b - a)
++print(a + b)
++print(b * a)
++print(a / b)
++print(a % b)
++print(a ** b)
++print(b // a)
++
++
++name = 'chaowei'
++familyname = 'ye'
++countcy = 'chine'
++
++print("name:", name, "\nfamilyname:", familyname, "\ncountcy:", countcy)
++print("I am enjoying 30 days of python")
++
++
++print(type(10))
++print(type(9.8))
++print(type(3.14))
++print(type(4 - 4j))
++print(type(['Asabeneh', 'Python', 'Finland']))
++print(type('chaowei'))
++print(type('ye'))
++print(type('chine'))
++
+Index: .idea/inspectionProfiles/profiles_settings.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/inspectionProfiles/profiles_settings.xml b/.idea/inspectionProfiles/profiles_settings.xml
+new file mode 100644
+--- /dev/null	(date 1718118222196)
++++ b/.idea/inspectionProfiles/profiles_settings.xml	(date 1718118222196)
+@@ -0,0 +1,6 @@
++<component name="InspectionProjectProfileManager">
++  <settings>
++    <option name="USE_PROJECT_PROFILE" value="false" />
++    <version value="1.0" />
++  </settings>
++</component>
+\ No newline at end of file
+Index: .idea/vcs.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+new file mode 100644
+--- /dev/null	(date 1718118222204)
++++ b/.idea/vcs.xml	(date 1718118222204)
+@@ -0,0 +1,6 @@
++<?xml version="1.0" encoding="UTF-8"?>
++<project version="4">
++  <component name="VcsDirectoryMappings">
++    <mapping directory="$PROJECT_DIR$" vcs="Git" />
++  </component>
++</project>
+\ No newline at end of file
